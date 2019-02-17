@@ -23,7 +23,7 @@ if __name__ == "__main__":
     ind = int(sys.argv[1])
     ### volatile ###########################
     master_folders = [r'N:\HCT116_6hAuxin_SI15noAB-Si16Ext',
-                 r'\\169.254.192.20\Chromatin_NAS_1\Bogdan\HCT116_6hAuxin_SI15noAB-Si16Ext']
+                 r'\\169.254.192.20\Chromatin_NAS_1\Bogdan\HCT116_untreated_SI15noAB-Si16Ext']
     #define analysis folder
     analysis_folder =r'Q:\Bogdan\NewAnalysis'+os.sep+os.path.basename(master_folders[0])
     #flat field correction

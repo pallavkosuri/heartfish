@@ -1,0 +1,7 @@
+Generally you want a separation of about ~150-300 pixels horizontal and vertically aligned on the throlabs camera.
+
+
+The reason for small distance is that HAL will perform computation on the thorlabs image to continuously adjust the stage z and the computation time should be minimized.
+
+
+At lease 50 pixel horizontal shift in distance is indicated upon moving the Z-piezo +/- a few micrometers up and down.
